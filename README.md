@@ -1,32 +1,32 @@
 ## Global AI Yapay Zeka Bootcamp Project
-Makine Öğrenimi ve Derin Öğrenme Modelleri Eğitimi ve Değerlendirilmesi
+## Makine Öğrenimi ve Derin Öğrenme Modelleri Eğitimi ve Değerlendirilmesi
 # 1. Giriş	
 Bu proje, Fashion MNIST veri setindeki giysi görüntülerini sınıflandırmak için çeşitli makine öğrenimi ve derin öğrenme modellerinin eğitimini ve değerlendirilmesini amaçlamaktadır. Hedef, en iyi performansı elde eden modeli belirlemektir.
 
 # 2. Veri Seti ve Ön İşleme
-Kullanılan Veri Seti:
-Fashion MNIST Veri Seti:
-•	28x28 piksel boyutunda gri tonlamalı giysi görüntüleri
-•	10 farklı giysi sınıfı
-o	Eşofman altı
-o	Sweatshirt
-o	Elbise
-o	Ceket
-o	Sandalet
-o	Çanta
-o	Bot
-o	Sneaker
-o	Gömlek
+Kullanılan Veri Seti:  
+Fashion MNIST Veri Seti:  
+•	28x28 piksel boyutunda gri tonlamalı giysi görüntüleri  
+•	10 farklı giysi sınıfı  
+o	Eşofman altı  
+o	Sweatshirt  
+o	Elbise  
+o	Ceket  
+o	Sandalet  
+o	Çanta   
+o	Bot  
+o	Sneaker  
+o	Gömlek  
 •	Veri seti ikiye ayrılmıştır: eğitim seti ve test seti. Eğitim seti, modeli eğitmek için kullanılırken, test seti modelin performansını değerlendirmek için kullanılır
-•	Eğitim için 60,000 ve test için 10,000 örnek
+•	Eğitim için 60,000 ve test için 10,000 örnek  
 
-Veri Yükleme ve İnceleme:
-Veri seti, Keras kütüphanesi kullanılarak yüklenmiştir. Aşağıda örnek veri görselleştirilmesi yer almaktadır:
-
-Ön İşleme Adımları:
-•	Bu projede, aşağıdaki veri ön işleme adımları uygulandı: 
-–	Verilerin bölünmesi: Veriler X_train, y_train, X_test ve y_test olarak bölündü.
-–	Eğitim kümesi 60.000, test kümesi ise 10.000 görüntüden oluşmaktadır.
+Veri Yükleme ve İnceleme:  
+Veri seti, Keras kütüphanesi kullanılarak yüklenmiştir. Aşağıda örnek veri görselleştirilmesi yer almaktadır:  
+  
+Ön İşleme Adımları:  
+•	Bu projede, aşağıdaki veri ön işleme adımları uygulandı:   
+–	Verilerin bölünmesi: Veriler X_train, y_train, X_test ve y_test olarak bölündü.  
+–	Eğitim kümesi 60.000, test kümesi ise 10.000 görüntüden oluşmaktadır.  
 –	Veri boyutları: Veri boyutları yazdırıldı.
 –	Görüntü boyutları: Görüntü boyutları yazdırıldı.
 –	Sampling: Veri seti büyük olduğu için makine öğrenimi metotlarının eğitim süresi ve optimizasyon kısmı uzun sürdüğü için eğitim için 1000 test için 250 görüntü ile çalışıldı
