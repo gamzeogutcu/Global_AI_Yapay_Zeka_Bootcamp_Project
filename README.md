@@ -1,9 +1,9 @@
-# Global_AI_Yapay_Zeka_Bootcamp_Project
+## Global AI Yapay Zeka Bootcamp Project
 Makine Öğrenimi ve Derin Öğrenme Modelleri Eğitimi ve Değerlendirilmesi
-1. Giriş	
+# 1. Giriş	
 Bu proje, Fashion MNIST veri setindeki giysi görüntülerini sınıflandırmak için çeşitli makine öğrenimi ve derin öğrenme modellerinin eğitimini ve değerlendirilmesini amaçlamaktadır. Hedef, en iyi performansı elde eden modeli belirlemektir.
 
-2. Veri Seti ve Ön İşleme
+# 2. Veri Seti ve Ön İşleme
 Kullanılan Veri Seti:
 Fashion MNIST Veri Seti:
 •	28x28 piksel boyutunda gri tonlamalı giysi görüntüleri
@@ -34,7 +34,7 @@ Veri seti, Keras kütüphanesi kullanılarak yüklenmiştir. Aşağıda örnek v
 –	Normalleştirme:  Görüntüler  0 ve 1 arasındaki değerlere ölçeklendirilerek normalize edildi.
 –	Yeniden şekillendirme
 
-3. Model Oluşturma
+# 3. Model Oluşturma
 Kullanılan Modeller:
 Bu projede, farklı makine öğrenmesi algoritmaları kullanarak modeller eğitilmiştir.
 •	K-Nearest Neighbors (KNN)
@@ -50,14 +50,14 @@ Derin öğrenme algoritmaları da uygulanmıştır.
 •	Yapay Sinir Ağları (ANN)
 •	Evrişimli Sinir Ağları (CNN)
 
-4. Model Eğitimi
+# 4. Model Eğitimi
 Eğitim Süreci:
 •	Bazı makine öğrenimi algoritmaları için hiperparametreler optimize edildi.(RF,LightGBM,XGBoost)
 •	Model eğitim kümesi üzerinde eğitildi.
 •	Modelin doğruluğu test kümesi üzerinde değerlendirildi.
 •	ANN ve CNN de başarımı artırmak için katman sayısı, noron sayıları, epoch sayısı, düzenlileştirme yöntemleri vs üzerinde oynamalar yapıldı.
 
-5. Model Değerlendirme
+# 5. Model Değerlendirme
 Metrikler:
 Farklı metrikler farklı yönleri ölçer o yüzden problem farklı metrikler kullanılarak değerlendirildi.
 •	Accuracy
@@ -66,7 +66,7 @@ Farklı metrikler farklı yönleri ölçer o yüzden problem farklı metrikler k
 •	F1 skoru
 •	Roc-Auc
 
-6. Sonuç ve Gelecek Çalışmalar
+# 6. Sonuç ve Gelecek Çalışmalar
 Genel Sonuçlar:
 •	Makine öğrenimi metotlarında model eğitimi ve hiperparametre optimizasyonu süresi çok uzun sürdüğü için sampling işlemi yapılmıştır. Derin öğrenme ve makine öğrenimi metotlarını kıyaslayabilmek için derin öğrenme metotlarında da sampling işlemi kullanılmıştır.
 •	 Birden fazla değerlendirme metriğiyle (accuracy,precision,recall,f1 vb.) ölçüm yapılmasına rağmen sonuçları karşılaştırmak için accuracy değeri baz alınmıştır.
