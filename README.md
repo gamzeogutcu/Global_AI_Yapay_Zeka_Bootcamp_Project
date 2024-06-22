@@ -1,0 +1,1 @@
+# Global_AI_Yapay_Zeka_Bootcamp_Project
